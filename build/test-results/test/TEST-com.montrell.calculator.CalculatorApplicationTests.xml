@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.montrell.calculator.CalculatorApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-29T08:50:08" hostname="MSI" time="0.809">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.montrell.calculator.CalculatorApplicationTests" time="0.809"/>
+  <system-out><![CDATA[11:50:07.344 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.montrell.calculator.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:50:07.432 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.montrell.calculator.CalculatorApplication for test class com.montrell.calculator.CalculatorApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2023-12-29T11:50:07.705+03:00  INFO 9544 --- [    Test worker] c.m.c.CalculatorApplicationTests         : Starting CalculatorApplicationTests using Java 17.0.9 with PID 9544 (started by story in C:\Users\story\Dropbox\A\Books\Packt\PipelineFolder\calculator)
+2023-12-29T11:50:07.706+03:00  INFO 9544 --- [    Test worker] c.m.c.CalculatorApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2023-12-29T11:50:08.588+03:00  INFO 9544 --- [    Test worker] c.m.c.CalculatorApplicationTests         : Started CalculatorApplicationTests in 1.029 seconds (process running for 1.909)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
