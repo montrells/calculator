@@ -26,7 +26,7 @@ pipeline{
     post {
         failure{
             slackSend channel: '#TestJenkins',
-            color: 'danger',
+            slackSend color: "good", message: "Message from Jenkins Pipeline"
             message: "The pipeline ${current.Build.fullDisplayName} failed"
         }
     }
