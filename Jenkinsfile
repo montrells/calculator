@@ -24,10 +24,10 @@ pipeline{
         }
     }
     post {
-        always{
-            mail to: 'montrell.story@gmail.com',
-            subject: "Completed Pipeline: ${currentBuild.fullDisplayName}",
-            body: "Your build completed, please check: ${env.BUILD_URL}"
+        failure{
+            slackSend channel: '#TestJenkins',
+            color: 'danger',
+            message: "The pipeline ${current.Build.fullDisplayName} failed"
         }
     }
 }
