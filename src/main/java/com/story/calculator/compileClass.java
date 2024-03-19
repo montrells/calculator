@@ -1,8 +1,7 @@
 package com.story.calculator;
 
-public class compileJava {
+public class compileClass {
     public static void main(String[] args) {
-        System.out.println("Hello world!!!");
+        System.out.println("Hello World");
     }
-
 }
