@@ -1,4 +1,4 @@
-package com.leszko.calculator;
+package com.story.calculator;
 
 public class compileJava {
     public static void main(String[] args) {
